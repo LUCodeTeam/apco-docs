@@ -51,7 +51,7 @@ gem install jekyll bundler
 
 Once completed, check Jekyll has installed with the command: jekyll - v
 
-<img src="CMD 2.png" width=400>
+<img src="CMD 2.png" width=200>
 
 Jekyll should now be installed. However, there are some more command line steps to configure to use to develop GitHub Pages with the Just the Docs template… (to be updated)….
 
@@ -94,13 +94,76 @@ Note: The University Software Centre does have GIT:
 
 
 
-# This is old test code from BM
+## Jekyll Markdown basic formatting guide
+This is some examples of basic Jekyll markdown stled elements.
 
-This is a test.
+This guide was adapted from here:
+https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md
 
+This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
+
+## Header 2 (H1 is reserved for post titles)##
+### Header 3
+#### Header 4
+ 
+ 
+A link to [Jekyll Now]
+
+link http://github.com/barryclark/jekyll-now/
+
+
+Examples - lists:
+* A bulletted list
+- alternative syntax 1
++ alternative syntax 2
+  - an indented list item
+
+1. An
+2. ordered
+3. list
+
+
+Inline markup styles: 
+- _italics_
+- **bold**
+- `code()` 
+ > Blockquote
+>> Nested Blockquote 
+
+ Syntax highlighting can be used by wrapping your code in a liquid tag like so:
+{{ "{% highlight javascript " }}%}  
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{{ "{% endhighlight " }}%}  
+
+creates...
+{% highlight javascript %}
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{% endhighlight %}
+ 
+Use two trailing spaces  
+on the right  
+to create linebreak tags  
+ 
+Finally, horizontal lines
+ 
+----
+****
+
+Example how to doa simple figure insert:
+
+1). Original figure with no format commands:
 ![image](test.png)
 
+2). Figure adjusted to a specific size:
 <img src="test.png" width=400>
+
+
+
+
+
+## Original page from BM
 
 This is the landing page (which becomes index.html).
 
