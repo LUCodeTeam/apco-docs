@@ -55,7 +55,8 @@ Once completed, check Jekyll has installed with the command: jekyll - v
 
 Jekyll should now be installed. However, there are some more command line steps to configure to use to develop GitHub Pages with the Just the Docs template… (to be updated)….
 
-
+  
+    
 
 ### Visual Studio
 Download and install the latest version of Visual Studio (if not installed on your PC), link: https://visualstudio.microsoft.com/downloads/
@@ -71,7 +72,8 @@ Once signed in, you can then open a local project. This can be a GitHub reposito
 
 To add: quick guide how to edit a Jekyll.
 
-
+  
+  
 
 ### GitHub Desktop
 
@@ -85,14 +87,14 @@ Once installed, sign-in with your exiting GitHub account or create a new one.
 
 Once GitHub Desktop is set-up, you can start by making a clone of the project hosted by BM on GitHub apco-docs:
 
-<img src="GitHub Desktop 1.png" width=400>
+<img src="GItHub Desktop 1.png" width=400>
 
 Note: The University Software Centre does have GIT:
 
 <img src="GIT.png" width=400>
 
-
-
+  
+  
 
 ## Jekyll Markdown basic formatting guide
 This is some examples of basic Jekyll markdown stled elements.
@@ -154,14 +156,16 @@ Finally, horizontal lines
 Example how to doa simple figure insert:
 
 1). Original figure with no format commands:
+
 ![image](test.png)
 
 2). Figure adjusted to a specific size:
+
 <img src="test.png" width=400>
 
-
-
-
+----
+  
+  
 
 ## Original page from BM
 
