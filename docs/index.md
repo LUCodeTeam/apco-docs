@@ -10,11 +10,11 @@ nav_order: 1
 This is a guide for creating webpages to host on GitHub Pages using a markdown editor and Jekyll.
 
 Prerequisites:
-- Jekyll https://jekyllrb.com/docs/
-- Ruby (required for Jekyll) https://rubyinstaller.org/downloads/
-- Microsoft Visual Studio https://visualstudio.microsoft.com/downloads/
-- Github Desktop https://desktop.github.com/
-- Just the Docs Template https://pmarsceill.github.io/just-the-docs/
+- Jekyll <https://jekyllrb.com/docs/>
+- Ruby (required for Jekyll) <https://rubyinstaller.org/downloads/>
+- Microsoft Visual Studio <https://visualstudio.microsoft.com/downloads/>
+- Github Desktop <https://desktop.github.com/>
+- Just the Docs Template <https://pmarsceill.github.io/just-the-docs/>
 - MathJax – addon for Jekyll which provides useful equation editing capability
 
 
@@ -22,13 +22,14 @@ Prerequisites:
 This guide is designed for installlign and configuring the required software on a LU IT Services managed Windows based PC.
 
 ### Installing Ruby and Jekyll
-Link for install: https://jekyllrb.com/docs/
+Link for install: <https://jekyllrb.com/docs/>
 
-There is a specific set of instructions to install on a Windows PC (Windows is not an officially supported platform – however this has been shown to work): https://jekyllrb.com/docs/installation/windows/
+There is a specific set of instructions to install on a Windows PC (Windows is not an officially supported platform – however this has been shown to work): <https://jekyllrb.com/docs/installation/windows/>
 
 <img src="Jekyll 1.png" width=400>
 
-To download Ruby go to: https://rubyinstaller.org/downloads/
+To download Ruby go to: <https://rubyinstaller.org/downloads/>
+
 Download the latest 64bit version WITH DEVKIT. Copy from the Downloads folder to a folder on the root of the C drive e.g. C:\software.
 Run the installer with the default settings.
 
@@ -59,10 +60,10 @@ Jekyll should now be installed. However, there are some more command line steps 
     
 
 ### Visual Studio
-Download and install the latest version of Visual Studio (if not installed on your PC), link: https://visualstudio.microsoft.com/downloads/
+Download and install the latest version of Visual Studio (if not installed on your PC), link: <https://visualstudio.microsoft.com/downloads/>
 
 You should sign in with an account (can use your University Microsoft account e.g. your Univerity account). Refer to this page for more information:
-https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio?view=vs-2022#how-to-sign-in-to-visual-studio
+<https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio?view=vs-2022#how-to-sign-in-to-visual-studio>
 
 Once signed in, you can then open a local project. This can be a GitHub repository cloned from GitHub or a new project.
 
@@ -75,7 +76,7 @@ To add: quick guide how to edit a Jekyll.
 
 ### GitHub Desktop
 
-Website: https://desktop.github.com/
+Website: <https://desktop.github.com/>
 
 Note: This app is not available on the LU University Software Centre.
 
@@ -98,7 +99,7 @@ Note: The University Software Centre does have GIT:
 This is some examples of basic Jekyll markdown stled elements.
 
 This guide was adapted from here:
-https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md
+<https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md>
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
@@ -109,7 +110,7 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
  
 A link to [Jekyll Now]
 
-link http://github.com/barryclark/jekyll-now/
+link <http://github.com/barryclark/jekyll-now/>
 
 
 Examples - lists:
