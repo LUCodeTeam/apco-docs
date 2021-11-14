@@ -25,26 +25,32 @@ This guide is designed for installlign and configuring the required software on 
 Link for install: https://jekyllrb.com/docs/
 
 There is a specific set of instructions to install on a Windows PC (Windows is not an officially supported platform – however this has been shown to work): https://jekyllrb.com/docs/installation/windows/
+
 <img src="Jekyll 1.png" width=400>
 
 To download Ruby go to: https://rubyinstaller.org/downloads/
 Download the latest 64bit version WITH DEVKIT. Copy from the Downloads folder to a folder on the root of the C drive e.g. C:\software.
-Run the installer with the default settings. 
+Run the installer with the default settings.
+
 <img src="Ruby 1.png" width=400>
 
-Make sure to enable the option to Run ‘ridk install’: 
+Make sure to enable the option to Run ‘ridk install’:
+
 <img src="Ruby 2.png" width=400>
 
 The installer will open a CMD window:
+
 <img src="Ruby 3.png" width=400>
 
 You just need to press ENTER to install the default required packages.
 
 Open a command prompt and type the following to install Jekyll and the Bundler:
 gem install jekyll bundler
+
 <img src="CMD 1.png" width=400>
 
 Once completed, check Jekyll has installed with the command: jekyll - v
+
 <img src="CMD 2.png" width=400>
 
 Jekyll should now be installed. However, there are some more command line steps to configure to use to develop GitHub Pages with the Just the Docs template… (to be updated)….
@@ -78,9 +84,11 @@ To install GitHub Desktop on a university managed PC: download GitHub Desktop fr
 Once installed, sign-in with your exiting GitHub account or create a new one.
 
 Once GitHub Desktop is set-up, you can start by making a clone of the project hosted by BM on GitHub apco-docs:
+
 <img src="GitHub Desktop 1.png" width=400>
 
 Note: The University Software Centre does have GIT:
+
 <img src="GIT.png" width=400>
 
 
