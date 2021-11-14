@@ -64,8 +64,6 @@ Download and install the latest version of Visual Studio (if not installed on yo
 You should sign in with an account (can use your University Microsoft account e.g. your Univerity account). Refer to this page for more information:
 https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio?view=vs-2022#how-to-sign-in-to-visual-studio
 
-<img src="visual studio 1.png" width=400>
-
 Once signed in, you can then open a local project. This can be a GitHub repository cloned from GitHub or a new project.
 
 <img src="visual studio 2.png" width=400>
