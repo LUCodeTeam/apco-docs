@@ -25,27 +25,27 @@ This guide is designed for installlign and configuring the required software on 
 Link for install: https://jekyllrb.com/docs/
 
 There is a specific set of instructions to install on a Windows PC (Windows is not an officially supported platform – however this has been shown to work): https://jekyllrb.com/docs/installation/windows/
-<img src=" Jekyll 1.png)" width=400>
+<img src="Jekyll 1.png" width=400>
 
 To download Ruby go to: https://rubyinstaller.org/downloads/
 Download the latest 64bit version WITH DEVKIT. Copy from the Downloads folder to a folder on the root of the C drive e.g. C:\software.
 Run the installer with the default settings. 
-<img src=" Ruby 1.png)" width=400>
+<img src="Ruby 1.png" width=400>
 
 Make sure to enable the option to Run ‘ridk install’: 
-<img src=" Ruby 2.png)" width=400>
+<img src="Ruby 2.png" width=400>
 
 The installer will open a CMD window:
-<img src=" Ruby 3.png)" width=400>
+<img src="Ruby 3.png" width=400>
 
 You just need to press ENTER to install the default required packages.
 
 Open a command prompt and type the following to install Jekyll and the Bundler:
 gem install jekyll bundler
-<img src=" CMD 1.png)" width=400>
+<img src="CMD 1.png" width=400>
 
 Once completed, check Jekyll has installed with the command: jekyll - v
-<img src=" CMD 2.png)" width=400>
+<img src="CMD 2.png" width=400>
 
 Jekyll should now be installed. However, there are some more command line steps to configure to use to develop GitHub Pages with the Just the Docs template… (to be updated)….
 
@@ -57,11 +57,11 @@ Download and install the latest version of Visual Studio (if not installed on yo
 You should sign in with an account (can use your University Microsoft account e.g. your Univerity account). Refer to this page for more information:
 https://docs.microsoft.com/en-us/visualstudio/ide/signing-in-to-visual-studio?view=vs-2022#how-to-sign-in-to-visual-studio
 
-<img src=" visual studio 1.png " width=400>
+<img src="visual studio 1.png" width=400>
 
 Once signed in, you can then open a local project. This can be a GitHub repository cloned from GitHub or a new project.
 
-<img src=" visual studio 2.png " width=400>
+<img src="visual studio 2.png" width=400>
 
 To add: quick guide how to edit a Jekyll.
 
@@ -81,9 +81,7 @@ Once GitHub Desktop is set-up, you can start by making a clone of the project ho
 <img src="GitHub Desktop 1.png" width=400>
 
 Note: The University Software Centre does have GIT:
-<img src=" GIT.png " width=400>
-
-
+<img src="GIT.png" width=400>
 
 
 
