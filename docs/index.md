@@ -19,7 +19,7 @@ Prerequisites:
 
 
 ## Installation Guide (Windows)
-This guide is designed for installlign and configuring the required software on a LU IT Services managed Windows based PC.
+This guide is designed for installing and configuring the required software on a LU IT Services managed Windows based PC.
 
 ### Installing Ruby and Jekyll
 Link for install: <https://jekyllrb.com/docs/>
