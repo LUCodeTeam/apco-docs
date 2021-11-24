@@ -120,6 +120,24 @@ If you now try to refresh the webpage you will get an error:
 Seeing this error confirms the local webserver has shut down OK.
 
 
+## Visual Studio – how to try and run the Jekyll command to create a local webserver
+
+Step 1: Open a terminal window inside of Visual Studio, click on View and click on Terminal:
+
+<img src="visual studio 3.png" width=800>
+
+Step 2: navigate to the ‘docs’ directory inside ‘apco docs’ (the template created by BM) and then run the Jekyll command: ‘bundle exec Jekyll serve’
+
+<img src="visual studio 4.png" width=800>
+
+For an unknown reason this command failed (as above).
+
+So it was not possible to launch the local web server from the command line in Visual Studio.
+
+The reason for this not working requires further investigation, likely a set-up issue or a missing component. It is known to work on a MAC OK (BM uses this method).
+
+
+
 ## Jekyll Markdown - basic formatting guide
 This is some examples of basic Jekyll markdown stled elements.
 
