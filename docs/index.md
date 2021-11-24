@@ -90,6 +90,79 @@ Note: The University Software Centre does have GIT:
 <img src="GIT.png" width=400>
 
 
+## Windows Command Line – Additional steps needed to configure PC
+
+After installing the prerequisites following the above guide and downloading a copy of the ‘apco-docs’ repository, there are several further steps potentially required to get set-up to create webpages with Jekyll on the PC.
+
+These additional steps need to be done using a command line terminal in Windows.
+
+First, let us confirm that the Jekyll web server cannot start without some additional steps.
+
+Open a command line terminal in Windows (click on the start button and type ‘cmd’ and then click on the Command Prompt).
+Navigate to the ‘docs’ sub-folder in the ‘apco-docs’ repository. e.g. if repository is on a different drive to C:
+
+<img src="CMD example 1a.png" width=200>
+
+Type the Jekyll webserver command: ‘bundle exec Jekyll serve’ and press enter:
+
+<img src="CMD additional step 1.png" width=300>
+
+You will likely see the above ‘error’ which means that the ‘just-the-docs’ template used with ‘apco-docs’ is not installed.
+
+To install the ‘just-the-docs’ template, enter the command: ‘gem install just-the-docs’ and press enter:
+
+<img src="CMD additional step 2.png" width=300>
+
+This should install as shown above.
+
+Now try to run the Jekyll command as above again:
+
+<img src="CMD additional step 3.png" width=300>
+
+You may nor get the ‘error’ ‘github-pages’ is missing.
+
+You can try and fix this by running the command: ‘gem install github-pages’ and press enter:
+
+<img src="CMD additional step 4.png" width=300>
+
+This may take a few minutes and a lot of lines will appear on the terminal window, be patient. If this completes OK the terminal window should return something similar to below:
+
+<img src="CMD additional step 5.png" width=300>
+
+Now try to run the Jekyll command as above again:
+
+<img src="CMD additional step 6.png" width=300>
+
+Again, this is showing that another component is required.
+
+To fix this, follow the prompt and run the command: ‘bundle install’ and press enter. Like for github-pages, this may take a few minutes and generate lots of lines in the command terminal.
+
+<img src="CMD additional step 7.png" width=300>
+
+When this finishes, the terminal will look like the following and return the user prompt:
+
+<img src="CMD additional step 8.png" width=300>
+
+Now try to run the Jekyll command as above again:
+
+<img src="CMD additional step 9.png" width=300>
+
+This time the ‘error’ is the missing ‘webrick’ files. To fix this, run the command: ‘bundle add webrick’ and press enter. Another long list of entries will show in the command window as he processes:
+
+<img src="CMD additional step 10.png" width=300>
+
+When the terminal prompt is returned to the user, again run the Jekyll command again e.g:
+
+<img src="CMD additional step 11.png" width=300>
+
+This time hopefully the command will work and a ‘Server Address’ (local webpages hosted on the PC) will be created which you can then check in your browser to see the website on the local webserver. You should follow the prompt in the terminal window to stop this local webserver when you are done with the website.
+
+The above steps were what was necessary to get this Jekyll command to work on a Windows 11 PC after going through the earlier prerequisites. It is possible/probable that this experience may be different on another PC, especially if different versions of the prerequisites are used.
+
+If so, the user is advised to install the missing packages/components following the prompts in the terminal window after each attempt to run the Jekyll command, as shown above. Errors different to the above, are outside the scope of this guide.
+
+After this is done once, hopefully it will not be necessary to do again!
+
 
 ## Windows Command line – how to run the Jekyll command to create a local webserver
 
