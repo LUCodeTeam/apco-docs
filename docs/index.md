@@ -59,7 +59,7 @@ Jekyll should now be installed. However, there are some more command line steps 
   
     
 
-### Visual Studio
+### Installing Visual Studio
 Download and install the latest version of Visual Studio (if not installed on your PC), link: <https://visualstudio.microsoft.com/downloads/>
 
 You should sign in with an account (can use your University Microsoft account e.g. your Univerity account). Refer to this page for more information:
@@ -69,12 +69,9 @@ Once signed in, you can then open a local project. This can be a GitHub reposito
 
 <img src="visual studio 2.png" width=400>
 
-To add: quick guide how to edit a Jekyll.
 
-  
-  
 
-### GitHub Desktop
+### Installing GitHub Desktop
 
 Website: <https://desktop.github.com/>
 
@@ -92,10 +89,36 @@ Note: The University Software Centre does have GIT:
 
 <img src="GIT.png" width=400>
 
-  
-  
 
-## Jekyll Markdown basic formatting guide
+
+## Windows Command line – how to run the Jekyll command to create a local webserver
+
+Open a command line terminal in Windows (click on the start button and type ‘cmd’ and then click on the Command Prompt). Navigate to the ‘docs’ sub-folder in the ‘apco-docs’ repository. e.g. if repository is on a different drive to C:
+  
+<img src="CMD example 1.png" width=400>
+
+Type the Jekyll webserver command: bundle exec Jekyll serve. If everything is configured correctly on the PC and the local ‘apco-docs’ repository is OK, something like the following should appear after the command:
+
+<img src="CMD example 2.png" width=400>
+
+You can then navigate with a browser to the server address to view how the current website looks:
+
+<img src="CMD example 3.png" width=400>
+
+Tip: alternatively you can pass the --livereload option to serve to automatically refresh the page with each change you make to the source files e.g. : bundle exec jekyll serve --livereload
+
+To stop the remote server, type ctrl C. You can then close the server by typing Y and enter. Note due to a bug in ‘apro-docs’ you may get an error and you will need to type Y and enter again to close the web server:
+
+<img src="CMD example 4.png" width=400>
+
+If you now try to refresh the webpage you will get an error:
+
+<img src="CMD example 5.png" width=400>
+
+Seeing this error confirms the local webserver has shut down OK.
+
+
+## Jekyll Markdown - basic formatting guide
 This is some examples of basic Jekyll markdown stled elements.
 
 This guide was adapted from here:
