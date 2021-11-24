@@ -119,7 +119,7 @@ Now try to run the Jekyll command as above again:
 
 <img src="CMD additional step 3.png" width=400>
 
-You may nor get the ‘error’ ‘github-pages’ is missing.
+You may now get the ‘error’ ‘github-pages’ is missing.
 
 You can try and fix this by running the command: ‘gem install github-pages’ and press enter:
 
@@ -145,23 +145,27 @@ When this finishes, the terminal will look like the following and return the use
 
 Now try to run the Jekyll command as above again:
 
-<img src="CMD additional step 9.png" width=400>
+<img src="CMD additional step 9.png" width=800>
 
-This time the ‘error’ is the missing ‘webrick’ files. To fix this, run the command: ‘bundle add webrick’ and press enter. Another long list of entries will show in the command window as he processes:
+This time the ‘error’ is the missing ‘webrick’ files. To fix this, run the command: ‘bundle add webrick’ and press enter. Another long list of entries will show in the command window as this processes:
 
 <img src="CMD additional step 10.png" width=400>
 
-When the terminal prompt is returned to the user, again run the Jekyll command again e.g:
+When the terminal prompt is returned to the user, run the Jekyll command again e.g:
 
-<img src="CMD additional step 11.png" width=400>
+<img src="CMD additional step 11.png" width=800>
 
-This time hopefully the command will work and a ‘Server Address’ (local webpages hosted on the PC) will be created which you can then check in your browser to see the website on the local webserver. You should follow the prompt in the terminal window to stop this local webserver when you are done with the website.
+This time hopefully the command will work and a ‘Server Address’ (local webpages hosted on the PC) will be created which you can then check in your browser to see the website on the local webserver.
 
-The above steps were what was necessary to get this Jekyll command to work on a Windows 11 PC after going through the earlier prerequisites. It is possible/probable that this experience may be different on another PC, especially if different versions of the prerequisites are used.
+<img src="CMD example 3.png" width=800>
+
+You should follow the prompt in the terminal window to stop this local webserver when you are done with the website.
+
+The above steps were what was necessary to get this Jekyll command to work on a Windows 11 PC (in late 2021) after going through the earlier prerequisites. It is possible/probable that this experience may be different on another PC, especially if different versions of the prerequisites are used.
 
 If so, the user is advised to install the missing packages/components following the prompts in the terminal window after each attempt to run the Jekyll command, as shown above. Errors different to the above, are outside the scope of this guide.
 
-After this is done once, hopefully it will not be necessary to do again!
+After this is done once, hopefully it will not be necessary to do this again!
 
 
 ## Windows Command line – how to run the Jekyll command to create a local webserver
@@ -268,7 +272,7 @@ Finally, horizontal lines
 ----
 ****
 
-Example how to doa simple figure insert:
+Example how to do a simple figure insert:
 
 1). Original figure with no format commands:
 
