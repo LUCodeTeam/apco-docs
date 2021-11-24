@@ -95,7 +95,7 @@ Note: The University Software Centre does have GIT:
 
 Open a command line terminal in Windows (click on the start button and type ‘cmd’ and then click on the Command Prompt). Navigate to the ‘docs’ sub-folder in the ‘apco-docs’ repository. e.g. if repository is on a different drive to C:
   
-<img src="CMD example 1.png" width=400>
+<img src="CMD example 1.png" width=200>
 
 Type the Jekyll webserver command: bundle exec Jekyll serve. If everything is configured correctly on the PC and the local ‘apco-docs’ repository is OK, something like the following should appear after the command:
 
@@ -103,7 +103,7 @@ Type the Jekyll webserver command: bundle exec Jekyll serve. If everything is co
 
 You can then navigate with a browser to the server address to view how the current website looks:
 
-<img src="CMD example 3.png" width=400>
+<img src="CMD example 3.png" width=800>
 
 Tip: alternatively you can pass the --livereload option to serve to automatically refresh the page with each change you make to the source files e.g. : bundle exec jekyll serve --livereload
 
