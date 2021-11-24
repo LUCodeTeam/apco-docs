@@ -95,7 +95,7 @@ Note: The University Software Centre does have GIT:
 
 Open a command line terminal in Windows (click on the start button and type ‘cmd’ and then click on the Command Prompt). Navigate to the ‘docs’ sub-folder in the ‘apco-docs’ repository. e.g. if repository is on a different drive to C:
   
-<img src="CMD example 1.png" width=200>
+<img src="CMD example 1a.png" width=200>
 
 Type the Jekyll webserver command: 'bundle exec Jekyll serve'
 
