@@ -97,7 +97,9 @@ Open a command line terminal in Windows (click on the start button and type ‘c
   
 <img src="CMD example 1.png" width=200>
 
-Type the Jekyll webserver command: bundle exec Jekyll serve. If everything is configured correctly on the PC and the local ‘apco-docs’ repository is OK, something like the following should appear after the command:
+Type the Jekyll webserver command: 'bundle exec Jekyll serve'
+
+If everything is configured correctly on the PC and the local ‘apco-docs’ repository is OK, something like the following should appear after the command:
 
 <img src="CMD example 2.png" width=400>
 
@@ -105,7 +107,7 @@ You can then navigate with a browser to the server address to view how the curre
 
 <img src="CMD example 3.png" width=800>
 
-Tip: alternatively you can pass the --livereload option to serve to automatically refresh the page with each change you make to the source files e.g. : bundle exec jekyll serve --livereload
+Tip: alternatively you can pass the '--livereload' option to serve to automatically refresh the page with each change you make to the source files e.g. : 'bundle exec jekyll serve --livereload'
 
 To stop the remote server, type ctrl C. You can then close the server by typing Y and enter. Note due to a bug in ‘apro-docs’ you may get an error and you will need to type Y and enter again to close the web server:
 
