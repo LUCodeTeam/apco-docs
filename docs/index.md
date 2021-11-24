@@ -115,7 +115,7 @@ To stop the remote server, type ctrl C. You can then close the server by typing 
 
 If you now try to refresh the webpage you will get an error:
 
-<img src="CMD example 5.png" width=400>
+<img src="CMD example 5.png" width=800>
 
 Seeing this error confirms the local webserver has shut down OK.
 
