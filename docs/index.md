@@ -124,7 +124,7 @@ Seeing this error confirms the local webserver has shut down OK.
 
 Step 1: Open a terminal window inside of Visual Studio, click on View and click on Terminal:
 
-<img src="visual studio 3.png" width=800>
+<img src="visual studio 3.png" width=400>
 
 Step 2: navigate to the ‘docs’ directory inside ‘apco docs’ (the template created by BM) and then run the Jekyll command: ‘bundle exec Jekyll serve’
 
