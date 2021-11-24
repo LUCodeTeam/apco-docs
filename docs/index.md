@@ -105,55 +105,55 @@ Navigate to the ‘docs’ sub-folder in the ‘apco-docs’ repository. e.g. if
 
 Type the Jekyll webserver command: ‘bundle exec Jekyll serve’ and press enter:
 
-<img src="CMD additional step 1.png" width=300>
+<img src="CMD additional step 1.png" width=400>
 
 You will likely see the above ‘error’ which means that the ‘just-the-docs’ template used with ‘apco-docs’ is not installed.
 
 To install the ‘just-the-docs’ template, enter the command: ‘gem install just-the-docs’ and press enter:
 
-<img src="CMD additional step 2.png" width=300>
+<img src="CMD additional step 2.png" width=400>
 
 This should install as shown above.
 
 Now try to run the Jekyll command as above again:
 
-<img src="CMD additional step 3.png" width=300>
+<img src="CMD additional step 3.png" width=400>
 
 You may nor get the ‘error’ ‘github-pages’ is missing.
 
 You can try and fix this by running the command: ‘gem install github-pages’ and press enter:
 
-<img src="CMD additional step 4.png" width=300>
+<img src="CMD additional step 4.png" width=400>
 
 This may take a few minutes and a lot of lines will appear on the terminal window, be patient. If this completes OK the terminal window should return something similar to below:
 
-<img src="CMD additional step 5.png" width=300>
+<img src="CMD additional step 5.png" width=400>
 
 Now try to run the Jekyll command as above again:
 
-<img src="CMD additional step 6.png" width=300>
+<img src="CMD additional step 6.png" width=400>
 
 Again, this is showing that another component is required.
 
 To fix this, follow the prompt and run the command: ‘bundle install’ and press enter. Like for github-pages, this may take a few minutes and generate lots of lines in the command terminal.
 
-<img src="CMD additional step 7.png" width=300>
+<img src="CMD additional step 7.png" width=400>
 
 When this finishes, the terminal will look like the following and return the user prompt:
 
-<img src="CMD additional step 8.png" width=300>
+<img src="CMD additional step 8.png" width=400>
 
 Now try to run the Jekyll command as above again:
 
-<img src="CMD additional step 9.png" width=300>
+<img src="CMD additional step 9.png" width=400>
 
 This time the ‘error’ is the missing ‘webrick’ files. To fix this, run the command: ‘bundle add webrick’ and press enter. Another long list of entries will show in the command window as he processes:
 
-<img src="CMD additional step 10.png" width=300>
+<img src="CMD additional step 10.png" width=400>
 
 When the terminal prompt is returned to the user, again run the Jekyll command again e.g:
 
-<img src="CMD additional step 11.png" width=300>
+<img src="CMD additional step 11.png" width=400>
 
 This time hopefully the command will work and a ‘Server Address’ (local webpages hosted on the PC) will be created which you can then check in your browser to see the website on the local webserver. You should follow the prompt in the terminal window to stop this local webserver when you are done with the website.
 
