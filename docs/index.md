@@ -298,6 +298,7 @@ Example how to do a simple figure insert:
   
 
 ## Original page from BM
+{: .no_toc }
 
 This is the landing page (which becomes index.html).
 
