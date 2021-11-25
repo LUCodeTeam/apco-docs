@@ -235,8 +235,11 @@ This guide was adapted from here:
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
 ## Header 2 (H1 is reserved for post titles)##
+{: .no_toc }
 ### Header 3
+{: .no_toc }
 #### Header 4
+{: .no_toc }
  
  
 A link to [Jekyll Now]
