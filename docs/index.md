@@ -5,6 +5,17 @@ nav_order: 1
 
 # GitHub Pages Creation using Jekyll and Just the Docs
 
+
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+
 ## Introduction
 
 This is a guide for creating webpages to host on GitHub Pages using a markdown editor and Jekyll.
